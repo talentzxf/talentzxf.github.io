@@ -1,0 +1,77 @@
+# ignore this ignore file
+*.ignore
+
+# ignore build generate files
+vim.exe.stackdump
+
+# ignore those dirs
+target
+src-generated
+generated
+blackhawk/src/main/java/com/ea/nucleus/blackhawk/impl/jaxb/
+incomm/src/main/java/com/ea/nucleus/incomm/impl/jaxb/
+
+# ignore those files
+*.pyc
+*.class
+*.jar
+*.log
+*.pyc
+*.spec
+commerce.smoke.tests/src/main/resources/nucleus
+catalog/testData/DynamicPricing/Offers/DP-E-PackG-DR-MP60.xml
+catalog/testData/DynamicPricing/Offers/DP-E-PackH-DR-MP60.xml
+catalog/testData/DynamicPricing/Offers/DP-E-PackI-DR-MP60.xml
+catalog/catalog.consoleutil/[0-9]*
+risk/risk.ui/src/main/webapp/WEB-INF/js/ui/ui-framework.js
+buildnucleusstatus
+buildpomparentstatus
+buildteststatus
+catalogdeploy.log
+deploynexusstatus
+deploynucleusstatus
+deploycatalogstatus
+nucleusdeploy.log
+nexusdeploy.log
+startkeymasterstatus
+test/localconfig/configuration
+test/localconfig/system.properties
+test/localconfig/configuration-local.yml
+test/localconfig/system.properties_*
+uploadtestfilesstatus
+testbuild.log
+dependency-reduced-pom.xml
+
+batch-framework-integration/valid.csv
+catalog/catalog.consoleutil/1507648610_285405900
+catalog/catalog.consoleutil/1507650819_531394300
+catalog/catalog.consoleutil/1507704374_449165400
+test/6000.conf
+test/6001.conf
+test/6002.conf
+test/email/emailreport.html
+test/email/emailreport.xml
+test/clear_error
+test/docker1box.10.*
+
+p4mgr/autoIntegrate/pomVersion/output.err
+
+# ignore IntelliJ IDEA generate files
+.idea
+*.iml
+overlays
+**/.attach_pid*
+
+# ignore eclipse generate files
+*.cache
+**/.classpath
+**/.project
+**/.settings/
+
+crypto/crypto.tools/dependency-reduced-pom.xml 
+message/message.dep/dependency-reduced-pom.xml
+**/serv/*.log
+**/serv/*.log*
+**/build/*
+**/dist/*
+
